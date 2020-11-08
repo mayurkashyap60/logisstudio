@@ -1,0 +1,89 @@
+$primary: #ff4600;
+$secondary: #282828;
+$white: #ffffff;
+$black: #000000;
+$breakpoint-tablet: 320px;
+$breakpoint-ipad: 992px;
+
+//=============== all media query=============== 
+@media only screen and (max-width:1280px) {
+    .post-slide .post-content{
+        padding: 0px 15px 25px 15px;
+    }
+}
+@media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-ipad) {
+
+    // index page css code
+    .about_two{
+        bottom: -15%;
+    }
+    .about_title{
+        padding-top: 25%;
+    }
+    header nav{
+        background: #282828;
+    }
+    .display-2{
+        font-size: 3.5rem;
+    }
+    .get_btn{
+        margin: 5px 15px;
+        font-size: 13px;
+        padding: 10px 40px;
+    }
+    .video_btn {
+        text-align: center;
+    }
+    .banner_inner {
+        padding: 15px;
+    }
+    .feature_img{
+        background-size: cover;
+        height: 400px;
+        position: relative;
+        width: 100%;
+    }
+    .features{
+        padding: 0;
+    }
+    .feature_content {
+        padding: 3em 3em 3em 3em;
+    }
+    .m-faq{
+        padding-top: 2em;
+    }
+    .m-img div img{
+        padding-bottom: 25px;
+    }
+    footer .p-5{
+        padding: 1rem !important;
+    }
+    // index page css code
+    // about page css code
+    .breadcrumb_list li{
+        font-size: 20px;
+    }
+    .about_feature_img{
+        background-size: cover;
+        height: 400px;
+        position: relative;
+        width: 100%;
+    }
+    .testimonial{
+        margin-bottom: 4em;
+    }
+    .testimonial_icon{
+        top: -10%;
+    }
+    // about page css code
+    // our services page css code
+    .display-1{
+        font-size: 4rem;
+    }
+    // our services page css code
+    // contact us page css code
+    .contact_form{
+        padding: 2em;
+    }
+    // contact us page css code
+}

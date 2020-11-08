@@ -1,0 +1,74 @@
+@media only screen and (max-width: 1280px) {
+  .post-slide .post-content {
+    padding: 0px 15px 25px 15px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 992px) {
+  .about_two {
+    bottom: -15%;
+  }
+  .about_title {
+    padding-top: 25%;
+  }
+  header nav {
+    background: #282828;
+  }
+  .display-2 {
+    font-size: 3.5rem;
+  }
+  .get_btn {
+    margin: 5px 15px;
+    font-size: 13px;
+    padding: 10px 40px;
+  }
+  .video_btn {
+    text-align: center;
+  }
+  .banner_inner {
+    padding: 15px;
+  }
+  .feature_img {
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    width: 100%;
+  }
+  .features {
+    padding: 0;
+  }
+  .feature_content {
+    padding: 3em 3em 3em 3em;
+  }
+  .m-faq {
+    padding-top: 2em;
+  }
+  .m-img div img {
+    padding-bottom: 25px;
+  }
+  footer .p-5 {
+    padding: 1rem !important;
+  }
+  .breadcrumb_list li {
+    font-size: 20px;
+  }
+  .about_feature_img {
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    width: 100%;
+  }
+  .testimonial {
+    margin-bottom: 4em;
+  }
+  .testimonial_icon {
+    top: -10%;
+  }
+  .display-1 {
+    font-size: 4rem;
+  }
+  .contact_form {
+    padding: 2em;
+  }
+}
+/*# sourceMappingURL=media.css.map */
