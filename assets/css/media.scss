@@ -14,6 +14,9 @@ $breakpoint-ipad: 992px;
 @media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-ipad) {
 
     // index page css code
+    .logo-img{
+        width: 40%;
+    }
     .about_two{
         bottom: -15%;
     }

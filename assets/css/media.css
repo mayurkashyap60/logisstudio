@@ -5,6 +5,9 @@
 }
 
 @media (min-width: 320px) and (max-width: 992px) {
+  .logo-img {
+    width: 40%;
+  }
   .about_two {
     bottom: -15%;
   }
