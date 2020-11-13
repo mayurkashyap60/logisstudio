@@ -52,6 +52,18 @@
   footer .p-5 {
     padding: 1rem !important;
   }
+  .feature_btn {
+    text-align: center;
+  }
+  .feature_btn .feature_learn {
+    padding: 15px 30px;
+  }
+  .m-center {
+    text-align: center;
+  }
+  .buttons {
+    width: 100%;
+  }
   .breadcrumb_list li {
     font-size: 20px;
   }
@@ -66,6 +78,9 @@
   }
   .testimonial_icon {
     top: -10%;
+  }
+  .testimonial_bg {
+    padding: 6em 0 2em;
   }
   .display-1 {
     font-size: 4rem;

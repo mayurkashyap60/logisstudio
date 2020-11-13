@@ -61,6 +61,18 @@ $breakpoint-ipad: 992px;
     footer .p-5{
         padding: 1rem !important;
     }
+    .feature_btn{
+        text-align: center;
+        .feature_learn {
+            padding: 15px 30px;
+        }
+    }
+    .m-center{
+        text-align: center;
+    }
+    .buttons{
+        width: 100%;
+    }
     // index page css code
     // about page css code
     .breadcrumb_list li{
@@ -77,6 +89,9 @@ $breakpoint-ipad: 992px;
     }
     .testimonial_icon{
         top: -10%;
+    }
+    .testimonial_bg {
+        padding: 6em 0 2em;
     }
     // about page css code
     // our services page css code
