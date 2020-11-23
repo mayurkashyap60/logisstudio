@@ -170,10 +170,10 @@ a:hover {
 .get_btn {
   color: #ffffff;
   display: inline-block;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1;
-  padding: 25px 50px;
+  padding: 20px 40px;
   position: relative;
   text-transform: uppercase;
   -webkit-transition: 0.3s;
@@ -184,9 +184,36 @@ a:hover {
   transition: 0.3s;
 }
 
+.btn-secondary:link,
+.btn-secondary:visited {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  color: #ff4600 !important;
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s;
+}
+
+.btn-secondary-services:link,
+.btn-secondary-services:visited {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.btn-secondary-services:hover {
+  color: #000000 !important;
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s;
+}
 .get_btn:hover {
   background: #ffffff;
   text-decoration: none;
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .custom {
